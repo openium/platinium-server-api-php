@@ -74,7 +74,7 @@
         public function push(PushEntityInterface $object, array $pushGroup = [], array $langs = []): PushResponse
         {
             if (!empty($pushGroup)) {
-                if (is_null($this->pushServerInfo) || $this->pushLoc) {
+                if (is_null($this->pushServerInfo) || is_null($this->pushLoc)) {
                     $message = "Push Loc or Push Server Info haven't been set";
                     error_log($message);
                     throw new PushException($message);
