@@ -1,0 +1,34 @@
+{
+    "name": "openium/platinium",
+    "description": "Openium Web Toolkit for Symfony Project",
+    "keywords": [
+        "platinium",
+        "push-notification",
+        "push",
+        "notification",
+        "openium"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "homepage" : "http://platinium.openium.fr",
+    "authors": [
+        {
+            "name": "Alexandre Caillot (Shiroe_sama)",
+            "email": "a.caillot@openium.fr"
+        },
+        {
+            "name": "Thomas Leduc",
+            "email": "t.leduc@openium.fr"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "symfony/http-foundation": "^4.0",
+        "symfony/http-kernel": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Openium\\": "src/Openium"
+        }
+    }
+}
