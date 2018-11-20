@@ -1,5 +1,13 @@
 # Platinium API
 
+## Caution
+
+this package is deprecated 
+
+please use [platinium-php-bundle](https://github.com/openium/platinium-php-bundle)
+
+---
+
 ## Install with composer
 
 ~~~
